@@ -79,7 +79,7 @@ export const DATA = {
       },
       HuggingFace: {
   name: "HuggingFace",
-  url: "https://huggingface.co/joshi-deepak08",
+  url: "https://huggingface.co/jiyanshi02",
   icon: Icons.huggingface, 
   navbar: true,
 },
