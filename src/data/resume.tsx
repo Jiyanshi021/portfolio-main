@@ -182,6 +182,44 @@ export const DATA = {
   // ],
   projects: [
     {
+  title: "AI Product Discovery Assistant",
+  href: "https://product-discovery-assistant-meu1avn3s.vercel.app",
+  dates: "",
+  active: true,
+  description:
+    "An AI-powered ecommerce product recommendation system with full data-scraping pipeline, PostgreSQL storage, Qdrant semantic search, and Groq Llama-3.1-8B reasoning. Supports abstract user queries, multi-step intent interpretation, and product re-ranking through a custom RAG architecture. Includes a React + Tailwind storefront, product detail pages, and an interactive chat interface with real-time AI-recommended product cards.",
+  technologies: [
+    "FastAPI",
+    "React",
+    "Tailwind",
+    "PostgreSQL",
+    "Qdrant",
+    "Neo4j",
+    "Groq Llama-3.1-8B",
+    "Sentence-Transformers",
+    "ScraperAPI",
+    "BeautifulSoup",
+    "Python",
+    "NLP",
+    "RAG"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://product-discovery-assistant-meu1avn3s.vercel.app",
+      icon: <Icons.globe className="size-3" />,
+    },
+    {
+      type: "Github",
+      href: "https://github.com/Jiyanshi021/product-discovery-assistant",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: "/product_assistant.png", // optional placeholder
+  video: "",
+},
+    
+    {
   title: "AI-Powered Internship Query Chatbot",
   href: "https://huggingface.co/spaces/jiyanshi02/Internship-Extraction_chatbot",
   dates: "",
@@ -313,88 +351,7 @@ export const DATA = {
   video: "",
 },
 
-    // {
-    //   title: "Swift Poll",
-    //   href: "https://swift-poll-app.vercel.app/",
-    //   dates: "",
-    //   active: true,
-    //   description:
-    //     "An instant and anonymous poll creation portal, that lets you create polls instantly with real-time stats update",
-    //   technologies: [
-    //     "React.js",
-    //     "MongoDB",
-    //     "TailwindCSS",
-    //     "Node.js",
-    //     "Socket.io",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://swift-poll-app.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/kartikkpawar/swift-poll-app",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image:
-    //     "https://cloud.appwrite.io/v1/storage/buckets/659a8f55aafdacbfba4b/files/659eba77e07d43644025/view?project=659a8e6fdef13624c6fb",
-    //   video: "",
-    // },
-    // {
-    //   title: "Cypress (Notion Clone)",
-    //   href: "https://github.com/kartikkpawar/cypress-notion",
-    //   dates: "",
-    //   active: false,
-    //   description:
-    //     "Real-time collaboration platform. Supporting real-time editor, multiple cursors, real-time presence, payments powered by STRIPE PAYMENTS Database and real-time presence managed by Supabase",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Drizzle",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Stripe",
-    //     "Socket.Io",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/kartikkpawar/cypress-notion",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image:
-    //     "https://cloud.appwrite.io/v1/storage/buckets/659a8f55aafdacbfba4b/files/65ba32ea94ec0bccaa2a/view?project=659a8e6fdef13624c6fb",
-    //   video: "",
-    // },
-    // {
-    //   title: "Binge Guide",
-    //   href: "https://bingegui.web.app/",
-    //   active: true,
-    //   description:
-    //     "A content discovery platform just like IMDB where user can see TV shows, and movies based on their search or by trend/upcoming/related and add it to their watchlist or favourites",
-    //   technologies: ["React.js", "Firebase", "TailwindCSS", "Redux Toolkit"],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://bingegui.web.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/kartikkpawar/Binge-Guide",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image:
-    //     "https://cloud.appwrite.io/v1/storage/buckets/659a8f55aafdacbfba4b/files/659d6d0ca4e7abfe2130/view?project=659a8e6fdef13624c6fb",
-    //   dates: "",
-    //   video: "",
-    // },
+    
   ],
   upcomingProjects: [
     {
