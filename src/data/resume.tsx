@@ -94,6 +94,20 @@ export const DATA = {
   },
 
   work: [
+
+    {
+  company: "Asvix",
+  href: "", 
+  badges: ["AI Developer Intern"],
+  location: "Remote",
+  title: "AI Developer Intern — GenAI & Backend Systems",
+  logoUrl: "/asvix.png", // add logo inside /public and update filename if needed
+  start: "Dec 2025",
+  end: "Present",
+  description:
+    "Designed and developed production-grade GenAI backend systems using FastAPI, focusing on Retrieval-Augmented Generation (RAG) pipelines for AI-driven user-facing features. Built end-to-end LLM workflows including document ingestion, embedding generation, semantic retrieval, prompt orchestration, and response synthesis. Integrated Qdrant vector database for high-performance similarity search and contextual retrieval. Architected modular and reusable backend components to support rapid iteration and scalable feature expansion. Containerized inference and API services using Docker and deployed across Railway, Render, and AWS EC2, ensuring reliable and reproducible deployments.",
+},
+    
   {
   company: "ARIES (Aryabhatta Research Institute of Observational Sciences)",
   href: "https://www.aries.res.in/aries-0",
@@ -118,30 +132,7 @@ export const DATA = {
   description:
     "Led program operations and coordinated multiple security, IT and AI/ML initiatives, ensuring smooth execution and timely delivery of projects. Managed workflows across cross-functional teams and interns, improved documentation processes, and streamlined communication to enhance project efficiency. Supported development and deployment of security solutions—including CCTV, access control, and automation systems—while assisting leadership in planning, tracking, and reporting ongoing technical initiatives.",
 },
-    // {
-    //   company: "Kalpas Innovations Pvt. Ltd.",
-    //   href: "https://kalpas.in/",
-    //   badges: ["Intern"],
-    //   location: "Hubballi Karnataka, IN",
-    //   title: "React Developer",
-    //   logoUrl: "/kalpas_innovations_logo.jpeg",
-    //   start: "May 2021",
-    //   end: "Jul 2021",
-    //   description:
-    //     "Developed user-facing features using React.js and created reusable components. Improved performance and usability by editing and optimizing existing code. Worked closely with designers and the backend team to ensure smooth project development.",
-    // },
-    // {
-    //   company: "Team 4 Progress Technologies",
-    //   href: "https://www.team4progress.com/",
-    //   badges: ["Intern"],
-    //   location: " New Delhi, IN",
-    //   title: "Web Developer",
-    //   logoUrl: "/team-4-progress.jpeg",
-    //   start: "Oct 2020",
-    //   end: "Dec 2020",
-    //   description:
-    //     "Worked in the Internal Product Development team, creating browser extensions to make internal tasks easier. Integrated APIs into the extensions to add more features and improve functionality",
-    // },
+
   ],
   certification: [
     {
